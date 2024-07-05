@@ -1,0 +1,71 @@
+body {
+    background-image: linear-gradient(to bottom, #ffe600, #ffe600, #ffe6009d, #ffe60052, white);
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: #ffe600;
+    height: 60px;
+    margin-inline: -20px;
+}
+
+.img-logo {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.container {
+    background-color: white;
+}
+
+.butaoCadastrar {
+    background-color: #ffe600;
+    border-radius: 7px;
+    width: 160px;
+    height: 40px;
+    border-color: transparent;
+}
+
+.butaoCadastrar:hover { 
+    background-color: #b9a80de0; 
+    transition: 0.3s;
+}
+
+.butaoCalcular {
+    background-color: #f7f8f7;
+    border-radius: 7px;
+    width: 160px;
+    height: 40px;
+    border-width: 1px;
+}
+
+.butaoCalcular:hover { 
+    background-color: #d4d6d4; 
+    transition: 0.3s;
+}
+
+.butaoFechar {
+    background-color: #f7f8f7;
+    border-radius: 7px;
+    width: 80px;
+    height: 40px;
+    border-width: 1px;
+}
+
+.butaoFechar:hover { 
+    background-color: #d4d6d4; 
+    transition: 0.3s;
+}
+
+.butaoSalvar {
+    background-color: #ffe600;
+    border-radius: 7px;
+    width: 80px;
+    height: 40px;
+    border: transparent;
+}
+
+.butaoSalvar:hover { 
+    background-color: #b9a80de0; 
+    transition: 0.3s;
+}

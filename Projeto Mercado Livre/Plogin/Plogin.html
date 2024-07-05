@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado Livre</title>
+
+    <link href="Plogin.css" rel="stylesheet">
+</head>
+<body>
+<!-- Cabeçalho da página -->
+    <header>
+        <nav class="cabecalho">
+            <img class="img-logo" src="imagens/mercado-livre-logo-0-1.png" width="150px" height="38px">
+        </nav>
+    </header>
+<!-- ################### -->
+
+<!--Login-->
+    <div class="container" id="container">
+    <div class="form-container sign-up-container">
+        <form action="#" id="form">
+            <h1>Criar Conta</h1>
+            <div class="social-container">
+                <a href="#" class="social"><img src="imagens/facebook.png" class="social2" width="35px" height="35px"></a>
+                <a href="#" class="social"><img src="imagens/google.png" class="social2" width="35px" height="35px"></a>
+                <a href="#" class="social"><img src="imagens/whatsapp.png" class="social2" width="35px" height="35px"></a>
+            </div>
+            <span>---- ouuse um email para cadastro ----</span>
+                <input type="text" placeholder="Nome">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Senha">
+                <input type="password" placeholder="Confirme sua senha">
+            <button>Criar</button>
+        </form>
+    </div>
+    <div class="form-container sign-in-container">
+        <form action="#">
+        <h1>Entrar</h1>
+        <div class="social-container">
+            <a href="#" class="social"><img src="imagens/facebook.png" class="social2" width="35px" height="35px"></a>
+            <a href="#" class="social"><img src="imagens/google.png" class="social2" width="35px" height="35px"></a>
+            <a href="#" class="social"><img src="imagens/whatsapp.png" class="social2" width="35px" height="35px"></a>
+        </div>
+        <span>---- ou use sua conta ----</span>
+        <input type="email" placeholder="Email" id="usuario"/>
+        <input type="password" placeholder="Senha" id="senha"/>
+        <a href="#">Esqueceu sua senha?</a>
+        <input type="submit" class="button" onclick="logar(); return false">
+        </form>
+    </div>
+    <div class="overlay-container">
+        <div class="overlay">
+        <div class="overlay-panel overlay-left">
+            <h1 class="texto">Bem-Vindo!</h1>
+            <p class="texto">Caso já possua uma conta <br> clique em "Entrar" e continue sua jornada conosco!</p>
+            <button class="butao-texto" id="signIn">Entrar</button>
+        </div>
+        <div class="overlay-panel overlay-right">
+            <h1 class="texto">Olá, Amigo!</h1>
+            <p class="texto">Caso não possua uma conta <br> clique em "Criar conta" e comece sua jornada conosco!</p>
+            <button class="butao-texto" id="signUp">Criar conta</button>
+        </div>
+        </div>
+    </div>
+    </div>
+<!--Final Login-->
+
+<script src="Plogin.js"></script>
+</body>
+</html>
